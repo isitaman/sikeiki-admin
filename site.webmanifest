@@ -1,6 +1,6 @@
 {
-  "name": "siKeiki",
-  "short_name": "siKeiki",
+  "name": "siKeiki Admin",
+  "short_name": "siKeiki Admin",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
