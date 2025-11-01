@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>siKeiki Javina</title>
+    <title>siKeiki Admin</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://isitaman.github.io/sikeiki-petani/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/svg+xml" href="https://isitaman.github.io/sikeiki-petani/favicon.svg">
-    <link rel="shortcut icon" href="https://isitaman.github.io/sikeiki-petani/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://isitaman.github.io/sikeiki-petani/apple-touch-icon.png">
-    <link rel="manifest" href="https://isitaman.github.io/sikeiki-petani/site.webmanifest">
+    <link rel="icon" type="image/png" href="https://isitaman.github.io/sikeiki-admin/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="https://isitaman.github.io/sikeiki-admin/favicon.svg">
+    <link rel="shortcut icon" href="https://isitaman.github.io/sikeiki-admin/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://isitaman.github.io/sikeiki-admin/apple-touch-icon.png">
+    <link rel="manifest" href="https://isitaman.github.io/sikeiki-admin/site.webmanifest">
     
     <!-- Web App Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="application-name" content="siKeiki">
-    <meta name="apple-mobile-web-app-title" content="siKeiki">
+    <meta name="apple-mobile-web-app-title" content="siKeiki Admin">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Sistem Informasi Kelola Ekosistem Industri Kemitraan Anggrek Javina">
     
@@ -75,10 +75,10 @@
     <header class="bg-green-600 py-5 text-center shadow-md">
         <div class="flex items-center justify-center space-x-3 px-4">
             <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-md">
-                <img src="https://isitaman.github.io/sikeiki-petani/favicon-96x96.png"></img>
+                <img src="https://isitaman.github.io/sikeiki-admin/favicon-96x96.png"></img>
             </div>
             <div>
-                <h1 class="text-xl md:text-2xl font-bold text-white">siKeiki</h1>
+                <h1 class="text-xl md:text-2xl font-bold text-white">siKeiki Admin</h1>
                 <p class="text-xs md:text-sm text-green-100">Sistem Informasi Kemitraan</p>
                 <p class="text-xs md:text-sm text-green-100">Ekosistem Industri Anggrek Javina</p>
             </div>
@@ -95,13 +95,13 @@
                 <p class="text-xs text-gray-500">Melihat Stok dan Pembayaran</p>
             </a>
             
-            <!-- <a href="#" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
+            <a href="user-management" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
                 <div class="icon-wrapper w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mb-3">
                     <i class="fas fa-plus-circle text-green-600 text-xl"></i>
                 </div>
-                <h3 class="text-sm font-semibold text-gray-900 mb-1">Input Stok Awal</h3>
+                <h3 class="text-sm font-semibold text-gray-900 mb-1">User Management</h3>
                 <p class="text-xs text-gray-500">Tambah stok baru</p>
-            </a> -->
+            </a>
             
             <!-- <a href="#" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
                 <div class="icon-wrapper w-14 h-14 bg-yellow-100 rounded-full flex items-center justify-center mb-3">
@@ -111,13 +111,13 @@
                 <p class="text-xs text-gray-500">Kelola lahan</p>
             </a> -->
             
-            <a href="input_validasi.html" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
+            <!-- <a href="input_validasi.html" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
                 <div class="icon-wrapper w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-3">
                     <i class="fas fa-check-circle text-purple-600 text-xl"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-900 mb-1">Validasi Penanaman</h3>
                 <p class="text-xs text-gray-500">Verifikasi data</p>
-            </a>
+            </a> -->
             
             <!-- <a href="#" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
                 <div class="icon-wrapper w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mb-3">
@@ -127,13 +127,13 @@
                 <p class="text-xs text-gray-500">Catat hasil panen</p>
             </a> -->
             
-            <a href="Input_log.html" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
+            <!-- <a href="Input_log.html" class="menu-card bg-white rounded-xl p-4 shadow-sm flex flex-col items-center text-center hover:shadow-md">
                 <div class="icon-wrapper w-14 h-14 bg-red-100 rounded-full flex items-center justify-center mb-3">
                     <i class="fas fa-exclamation-triangle text-red-600 text-xl"></i>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-900 mb-1">Lapor Problem</h3>
                 <p class="text-xs text-gray-500">Laporkan Masalah Plant</p>
-            </a>
+            </a> -->
         </div>
     </main>
     
